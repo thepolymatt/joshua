@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP4131-104E_SN"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-27-11:42:29)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

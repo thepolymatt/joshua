@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '865060462010'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "865060462010" (!) = "", "CAPAE1350X1400N", "Capacitor Al Electrolytic", "710-865060462010", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865060462010?qs=0KOYDY2FL2%2Fw1AnFOB1pbQ%3D%3D", "WURTH ELEKTRONIK - 865060462010 - CAP, 1000F, 25V, SMD", "https://katalog.we-online.de/pbs/datasheet/865060462010.pdf", "14 mm"
+END_PART
+
+END.

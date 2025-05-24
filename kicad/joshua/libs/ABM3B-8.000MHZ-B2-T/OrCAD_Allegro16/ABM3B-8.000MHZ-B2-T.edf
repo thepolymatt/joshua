@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &ABM3B_8_000MHZ_B2_T "ABM3B_8_000MHZ_B2_T")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 03 30 06 30 33)
+      (dataOrigin "232421/1381971/2.50/4/2/Crystal or Oscillator")
+      (program "SamacSys ECAD Model ABM3B_8_000MHZ_B2_T"
+        (version "7.3"))))
+  (library
+  (rename &ABM3B_8_000MHZ_B2_T "ABM3B_8_000MHZ_B2_T")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &ABM3B_8_000MHZ_B2_T "ABM3B_8_000MHZ_B2_T")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Y")
+          (property (rename PACKAGENAME "PackageName") (string "ABM3B_8_000MHZ_B2_T"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "ABM3B"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "815-ABM3B-8.0-B2-T"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-8.000MHZ-B2-T?qs=NE97hfUNX0Ef9OqIOqO2cA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "ABRACON"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "ABM3B-8.000MHZ-B2-T"))
+          (property (rename &Description "Description") (string "8 MHz +/-20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://abracon.com/Resonators/abm3b.pdf"))
+          (property (rename &Height "Height") (string "1.1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "ABM3B_8_000MHZ_B2_T"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &XTAL_1 "XTAL_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &XTAL_2 "XTAL_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &XTAL_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -200) (pt 1100 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -200))))
+            )
+            (portImplementation
+              (name &XTAL_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -100) (pt 1100 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -100))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 900 0)
+                  (pt 900 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 30))))
+          )
+        )
+      )
+    )
+  )
+)

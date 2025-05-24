@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TC42X-2-103E"
+   (description "Trimmer Resistors - SMD 10K 2mm SMD Single Turn")
+   (family "ANA")
+   (package "TC42X2103E")
+   (attribute "Datasheet Link" "http://www.bourns.com/docs/Product-Datasheets/TC42.pdf")
+   (attribute "Geometry.Height" "0.9mm")
+   (attribute "Mouser Part Number" "652-TC42X-2-103E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC42X-2-103E?qs=A%2FHKLTFiEJHcHOe8iLlyyQ%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "TC42X-2-103E")
+   (gate
+    (symbol "TC42X-2-103E")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "TC42X-2-103E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TC42X2103E"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.1 1.35)
+      (pt 1.1 1.35)
+      (pt 1.1 -1.25)
+      (pt -1.1 -1.25)
+      (pt -1.1 1.35))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 2.025)
+      (pt 1.6 2.025)
+      (pt 1.6 -2.35)
+      (pt -1.6 -2.35)
+      (pt -1.6 2.025))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.7 1.35)
+      (pt -1.1 1.35)
+      (pt -1.1 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.7 1.35)
+      (pt 1.1 1.35)
+      (pt 1.1 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.7 -1.8)
+      (arc (pt -0.700 -1.800) (pt -0.700 -1.850) (pt -0.600 -1.750) (start -180.0) (sweep 180.0))
+      (pt -0.6 -1.8)
+      (arc (pt -0.600 -1.800) (pt -0.700 -1.850) (pt -0.600 -1.750) (start -180.0) (sweep .0))
+      (pt -0.7 -1.8))))
+   (leg 1 (pt -0.650 -1.175) (padstack 0))
+   (leg 2 (pt 0.000 1.175) (padstack 2))
+   (leg 3 (pt 0.650 -1.175) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 0.800 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.000 0 0 0.000))
+   )
+   (model "TC42X-2-103E.stp"
+    (euler 0 0 0)
+    (offset -1.100000023841858 1.350000023841858 0.05000000074505806)
+   )
+  )
+ )
+)

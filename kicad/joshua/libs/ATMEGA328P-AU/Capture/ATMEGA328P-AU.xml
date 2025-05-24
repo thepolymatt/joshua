@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Lib xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="olb.xsd">
+
+  <Defn name="C:\TEMP\ATMEGA328P-AU.OLB"/>
+
+  <DefaultValues>
+    <Defn/>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="0" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="1" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="2" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="3" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="4" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="5" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="6" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="7" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="8" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="9" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="10" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="11" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="12" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="13" italic="0" name="Courier New" orientation="0" weight="400" width="5"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="14" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="15" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="-9" index="16" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="17" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="18" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="19" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="20" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="21" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="22" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn escapement="0" height="8" index="23" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultPageRec>
+      <Defn ANSIGridRefs="1" BorderDisplayed="1" BorderPrinted="1" GridRefDisplayed="1" GridRefPrinted="1" HorizontalLabelCount="5" HorizontalLabelIsAscending="0" HorizontalLabelIsChar="0" HorizontalLabelWidth="100" IsMetric="0" PinToPin="100" TitleBlockDisplayed="1" TitleBlockPrinted="1" VerticalLabelCount="4" VerticalLabelIsAscending="0" VerticalLabelIsChar="1" VerticalLabelWidth="100"/>
+    </DefaultPageRec>
+    <DefaultPlacedInstIsPrimitive>
+      <Defn val="0"/>
+    </DefaultPlacedInstIsPrimitive>
+    <DefaultDrawnInstIsPrimitive>
+      <Defn val="0"/>
+    </DefaultDrawnInstIsPrimitive>
+    <DefaultPartFieldMapping>
+      <Defn index="1" val="1ST PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="2" val="2ND PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="3" val="3RD PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="4" val="4TH PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="5" val="5TH PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="6" val="6TH PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="7" val="7TH PART FIELD"/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="8" val="PCB Footprint"/>
+    </DefaultPartFieldMapping>
+  </DefaultValues>
+  <Package>
+    <Defn alphabeticNumbering="2" isHomogeneous="1" name="ATMEGA328P-AU" pcbFootprint="QFP80P900X900X120-32N" pcbLib="" refdesPrefix="IC"/>
+    <LibPart>
+      <Defn CellName="ATMEGA328P-AU"/>
+      <NormalView>
+        <Defn suffix=".Normal"/>
+        <SymbolDisplayProp>
+          <Defn locX="245" locY="-25" name="Part Reference" rotation="0" textJustification="1"/>
+          <PropFont>
+            <Defn escapement="0" height="-9" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn ValueIfValueExist="0" val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+        <SymbolDisplayProp>
+          <Defn locX="245" locY="-15" name="Value" rotation="0" textJustification="1"/>
+          <PropFont>
+            <Defn escapement="0" height="-9" italic="0" name="Arial" orientation="0" weight="400" width="4"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn ValueIfValueExist="0" val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+        <SymbolUserProp>
+          <Defn name="Mouser Part Number" val="556-ATMEGA328P-AU"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Mouser Price/Stock" val="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA328P-AU?qs=K8BHR703ZXiCmmgp6%2FGNmQ%3D%3D"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Manufacturer_Name" val="Microchip"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Manufacturer_Part_Number" val="ATMEGA328P-AU"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Description" val="MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Datasheet Link" val="https://componentsearchengine.com/Datasheets/2/ATMEGA328P-AU.pdf"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Height" val="1.2 mm"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="TJ" val="125"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="MTBF" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="POWER" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="SLOPE" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="SUBTYPE" val="MCU SMD"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="PACKAGE" val="TQFP-32"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="RJA" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="VCC_MAX" val="6"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="VCC_MIN" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="IOUT_MAX" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="IOUT_MIN" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="ICC" val="200m"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="IGND" val="200m"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="RCA" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="RJC" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="ICCQ" val=""/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="TECHNOLOGY" val="CMOS"/>
+        </SymbolUserProp>
+        <SymbolColor>
+          <Defn val="48"/>
+        </SymbolColor>
+        <SymbolBBox>
+          <Defn x1="0" x2="240" y1="0" y2="340"/>
+        </SymbolBBox>
+        <IsPinNumbersVisible>
+          <Defn val="1"/>
+        </IsPinNumbersVisible>
+        <IsPinNamesRotated>
+          <Defn val="1"/>
+        </IsPinNamesRotated>
+        <IsPinNamesVisible>
+          <Defn val="1"/>
+        </IsPinNamesVisible>
+        <ContentsLibName>
+          <Defn name=""/>
+        </ContentsLibName>
+        <ContentsViewName>
+          <Defn name=""/>
+        </ContentsViewName>
+        <ContentsViewType>
+          <Defn type="0"/>
+        </ContentsViewType>
+        <PartValue>
+          <Defn name="ATMEGA328P-AU"/>
+        </PartValue>
+        <Reference>
+          <Defn name="IC"/>
+        </Reference>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="0" x2="240" y1="0" y2="0"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="240" x2="240" y1="340" y2="0"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="240" x2="0" y1="340" y2="340"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="0" x2="0" y1="0" y2="340"/>
+        </Line>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="130" name="(PCINT19/OC2B/INT1)_PD3" position="0" startX="0" startY="130" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="140" name="(PCINT20/XCK/T0)_PD4" position="1" startX="0" startY="140" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="150" name="GND_1" position="2" startX="0" startY="150" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="160" name="VCC_1" position="3" startX="0" startY="160" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="170" name="GND_2" position="4" startX="0" startY="170" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="180" name="VCC_2" position="5" startX="0" startY="180" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="190" name="(PCINT6/XTAL1/TOSC1)_PB6" position="6" startX="0" startY="190" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.85"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="0.55"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="-20" hotptY="200" name="(PCINT7/XTAL2/TOSC2)_PB7" position="7" startX="0" startY="200" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="80" hotptY="360" name="(PCINT21/OC0B/T1)_PD5" position="8" startX="80" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="90" hotptY="360" name="(PCINT22/OC0A/AIN0)_PD6" position="9" startX="90" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="100" hotptY="360" name="(PCINT23/AIN1)_PD7" position="10" startX="100" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="110" hotptY="360" name="(PCINT0/CLKO/ICP1)_PB0" position="11" startX="110" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="120" hotptY="360" name="(PCINT1/OC1A)_PB1" position="12" startX="120" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="130" hotptY="360" name="(PCINT2/SS/OC1B)_PB2" position="13" startX="130" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="140" hotptY="360" name="(PCINT3/OC2A/MOSI)_PB3" position="14" startX="140" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="150" hotptY="360" name="(PCINT4/MISO)_PB4" position="15" startX="150" startY="340" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="130" name="PC1_(ADC1/PCINT9)" position="16" startX="240" startY="130" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="140" name="PC0_(ADC0/PCINT8)" position="17" startX="240" startY="140" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="150" name="ADC7" position="18" startX="240" startY="150" type="0" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="160" name="GND_3" position="19" startX="240" startY="160" type="0" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="170" name="AREF" position="20" startX="240" startY="170" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="180" name="ADC6" position="21" startX="240" startY="180" type="0" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="190" name="AVCC" position="22" startX="240" startY="190" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="260" hotptY="200" name="PB5_(SCK/PCINT5)" position="23" startX="240" startY="200" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="80" hotptY="-20" name="PD2_(INT0/PCINT18)" position="24" startX="80" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="90" hotptY="-20" name="PD1_(TXD/PCINT17)" position="25" startX="90" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="100" hotptY="-20" name="PD0_(RXD/PCINT16)" position="26" startX="100" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="110" hotptY="-20" name="PC6_(R\E\S\E\T\/\P\C\I\N\T\1\4\)\" position="27" startX="110" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="120" hotptY="-20" name="PC5_(ADC5/SCL/PCINT13)" position="28" startX="120" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="60k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMAX" val="13"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="130" hotptY="-20" name="PC4_(ADC4/SDA/PCINT12)" position="29" startX="130" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="140" hotptY="-20" name="PC3_(ADC3/PCINT11)" position="30" startX="140" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="150" hotptY="-20" name="PC2_(ADC2/PCINT10)" position="31" startX="150" startY="0" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="0"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinUserProp>
+            <Defn name="VIH" val="3.3"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VIL" val="1.65"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOH" val="4.2"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VOL" val="0.9"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="PULL_UP" val="50k"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="IOUT" val="40m"/>
+          </PinUserProp>
+          <PinUserProp>
+            <Defn name="VMIN" val="-0.5"/>
+          </PinUserProp>
+        </SymbolPinScalar>
+      </NormalView>
+      <PhysicalPart>
+        <Defn/>
+        <PinNumber>
+          <Defn number="1" position="0"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="2" position="1"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="3" position="2"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="4" position="3"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="5" position="4"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="6" position="5"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="7" position="6"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="8" position="7"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="9" position="8"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="10" position="9"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="11" position="10"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="12" position="11"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="13" position="12"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="14" position="13"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="15" position="14"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="16" position="15"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="24" position="16"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="23" position="17"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="22" position="18"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="21" position="19"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="20" position="20"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="19" position="21"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="18" position="22"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="17" position="23"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="32" position="24"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="31" position="25"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="30" position="26"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="29" position="27"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="28" position="28"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="27" position="29"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="26" position="30"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="25" position="31"/>
+        </PinNumber>
+      </PhysicalPart>
+    </LibPart>
+  </Package>
+
+</Lib>

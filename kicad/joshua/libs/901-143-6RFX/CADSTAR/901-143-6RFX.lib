@@ -1,0 +1,16 @@
+.901-143-6RFX :1 ;SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder 
+"9011436RFX"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 5
+*DFN 901-143-6RFX
+~!Mouser Part Number (523-901-143-6RFX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-RF/901-143-6RFX?qs=Kdyc7Q8pFhpGGXyYYV%2FtdA%3D%3D)
+~!Manufacturer_Name (Amphenol RF)
+~!Manufacturer_Part_Number (901-143-6RFX)
+~!Link Datasheet (https://www.amphenolrf.com/library/download/link/link_id/593644/parent/901-143-6RFX/)
+~!Height (10.06mm)
+~!3D_Model (901-143-6RFX)
+"901-143-6RFX"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

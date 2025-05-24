@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/183648/1381971/2.50/3/4/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c156_h106" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="41.732283464566">
+    <padshape layer="TOP" shape="round" width="61.417322834645" height="61.417322834645" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="69.291338582676" height="69.291338582676" />
+    <padshape layer="INNER" shape="round" width="61.417322834645" height="61.417322834645" />
+    <padshape layer="BOTTOM" shape="round" width="61.417322834645" height="61.417322834645" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="69.291338582676" height="69.291338582676" />
+  </padstyle>
+  <footprint name="TSOP38238" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c156_h106" originx="-99.999999999999" originy="-57.086614173228" rotation="90" />
+    <pcbpin number="2" name="2" style="c156_h106" originx="0" originy="-57.086614173228" rotation="90" />
+    <pcbpin number="3" name="3" style="c156_h106" originx="99.999999999999" originy="-57.086614173228" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="0" endx="98.425196850392" endy="0" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="98.425196850392" originy="0" endx="98.425196850392" endy="-188.97637795275" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="98.425196850392" originy="-188.97637795275" endx="-98.425196850392" endy="-188.97637795275" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="-188.97637795275" endx="-98.425196850392" endy="0" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="0" endx="98.425196850392" endy="0" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="-188.97637795275" endx="98.425196850392" endy="-188.97637795275" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="98.425196850392" originy="-188.97637795275" endx="98.425196850392" endy="-94.488188976377" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="-188.97637795275" endx="-98.425196850392" endy="-94.488188976377" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-137.55905511811" originy="-101.88976377953" startangle="180" sweepangle="180" radius="2.7952755905511" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-137.55905511811" originy="-101.88976377953" startangle="180" sweepangle="-180" radius="2.7952755905511" width="7.8740157480314" />
+  </footprint>
+  <symbol name="TSOP38238" originx="0" originy="0">
+    <line originx="200" originy="100" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-300" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="OUT" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VS" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+  </symbol>
+  <component name="TSOP38238" designatorprefix="IC" height="0" footprint="TSOP38238">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="OUT" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VS" />
+    <attached_symbol gate="1" name="TSOP38238" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="IR Remote Receiver 38KHz 45m" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="782-TSOP38238" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TSOP38238?qs=RzxYCzJDjPVjpHVZS582Ng%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Vishay" />
+    <text name="Manufacturer_Part_Number" originx="750" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TSOP38238" />
+  </component>
+</quadcept_library>

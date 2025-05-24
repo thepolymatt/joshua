@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RCJ_011'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "RCJ-011" (!) = "", "RCJ011", "Other", "490-RCJ-011", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/RCJ-011?qs=WyjlAZoYn51YnV3HkmXXOg%3D%3D", "Metal Right-Angle, RCA Jack, Black Insulator", "https://www.sameskydevices.com/product/resource/supplyframepdf/rcj-01.pdf", "12 mm"
+END_PART
+
+END.

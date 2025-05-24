@@ -1,0 +1,16 @@
+.865090449009 :1 ;Wurth Elektronik 100uF 25 V dc Aluminium Electrolytic Capacitor, WCAP-ASLU Series 1000h 6.5 (Dia.) x 7.85mm
+CAPAE830X650N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN 865090449009
+~!Mouser Part Number (710-865090449009)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865090449009?qs=0KOYDY2FL29%2F%2FAkRd1dwYw%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (865090449009)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/865090449009.pdf)
+~!Height (6.5mm)
+~!3D_Model (865090449009)
+"865090449009"
+1.1!U 2.1!U 

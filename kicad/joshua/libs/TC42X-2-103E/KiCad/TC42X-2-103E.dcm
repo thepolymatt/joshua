@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC42X-2-103E
+D Trimmer Resistors - SMD 10K 2mm SMD Single Turn
+K
+F http://www.bourns.com/docs/Product-Datasheets/TC42.pdf
+$ENDCMP
+#
+#End Doc Library

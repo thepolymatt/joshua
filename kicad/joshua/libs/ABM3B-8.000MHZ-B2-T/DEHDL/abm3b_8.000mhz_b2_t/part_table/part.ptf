@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ABM3B_8.000MHZ_B2_T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "ABM3B-8.000MHZ-B2-T" (!) = "", "ABM3B", "Other", "815-ABM3B-8.0-B2-T", "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-8.000MHZ-B2-T?qs=NE97hfUNX0Ef9OqIOqO2cA%3D%3D", "8 MHz +/-20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead", "https://abracon.com/Resonators/abm3b.pdf", "1.1 mm"
+END_PART
+
+END.

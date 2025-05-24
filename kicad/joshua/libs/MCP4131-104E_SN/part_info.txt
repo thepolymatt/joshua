@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP4131-104E/SN
+PartCategory=Variable Resistor
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-08-03 06:33:32
+Downloaded=2025-03-29 23:50:24
+3D=Y

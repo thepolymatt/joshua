@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TC33X-2-104G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-31-21:29:45)
+    (mountForm default
+        (footprintRef "TC33X2503E")
+        (spec "System")
+    )
+)

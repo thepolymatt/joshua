@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC33X-2-104G
+D Trimmer Resistors - SMD 3MM 100KOHMS 25% 0.1WATT OPEN FRM
+K
+F https://www.bourns.com/pdfs/TC33.pdf
+$ENDCMP
+#
+#End Doc Library

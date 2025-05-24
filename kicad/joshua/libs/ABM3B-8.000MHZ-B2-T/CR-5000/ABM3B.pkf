@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ABM3B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ABM3B")
+        (spec "default")
+    )
+)

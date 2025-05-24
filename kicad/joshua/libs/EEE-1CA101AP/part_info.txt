@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EEE-1CA101AP
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=2
+Version=4.2
+Released=2020-07-27 05:57:44
+Downloaded=2025-03-30 06:47:37
+3D=Y

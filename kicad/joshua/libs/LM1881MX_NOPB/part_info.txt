@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM1881MX/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2021-04-16 05:12:58
+Downloaded=2025-03-30 23:37:57
+3D=Y

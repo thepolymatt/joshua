@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEE-1CA101AP
+#/256759/1381971/2.50/2/2/Capacitor Polarised
+DEF EEE-1CA101AP C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEE-1CA101AP" 350 150 50 H V L CNN
+F2 "EEE1AA221P" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf" 350 -50 50 H I L CNN
+F4 "Panasonic 100F 16V dc Aluminium Electrolytic Capacitor, Surface Mount 8 x 6.2mm +85C 8mm 6.2mm" 350 -150 50 H I L CNN "Description"
+F5 "9.5" 350 -250 50 H I L CNN "Height"
+F6 "667-EEE-1CA101AP" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1CA101AP?qs=d1CqaRUMZD%252BJh7voC3Lmtg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEE-1CA101AP" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSOP34438
+D IR Remote Receiver 38KHz 45m
+K
+F https://www.vishay.com/docs/82489/tsop322.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABM3B-12.000MHZ-B2-T
+D 12 MHz +/-20ppm Crystal 18pF 70 Ohms 4-SMD, No Lead
+K
+F https://abracon.com/Resonators/abm3b.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EEE-FP1E101AV
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=6
+Version=5.2
+Released=2021-09-29 09:12:48
+Downloaded=2025-03-30 19:36:38
+3D=Y

@@ -1,0 +1,15 @@
+.RCJ-011 :1 ;Metal Right-Angle, RCA Jack, Black Insulator
+RCJ011
+*STM J
+*NGS
+*PLB 1="1_1" 2="2" 12="1_2" 13="1_3"
+*MXP 4
+*DFN RCJ-011
+~!Mouser Part Number (490-RCJ-011)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/RCJ-011?qs=WyjlAZoYn51YnV3HkmXXOg%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (RCJ-011)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/supplyframepdf/rcj-01.pdf)
+~!Height (12mm)
+RCJ-011
+1.1!U 2.1!U 12.1!U 13.1!U 

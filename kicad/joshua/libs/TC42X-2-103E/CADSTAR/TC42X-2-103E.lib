@@ -1,0 +1,16 @@
+.TC42X-2-103E :1 ;Trimmer Resistors - SMD 10K 2mm SMD Single Turn
+TC42X2103E
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN TC42X-2-103E
+~!Mouser Part Number (652-TC42X-2-103E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/TC42X-2-103E?qs=A%2FHKLTFiEJHcHOe8iLlyyQ%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (TC42X-2-103E)
+~!Link Datasheet (http://www.bourns.com/docs/Product-Datasheets/TC42.pdf)
+~!Height (0.9mm)
+~!3D_Model (TC42X-2-103E)
+TC42X-2-103E
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATMEGA328P-AU
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=32
+Version=2.2
+Released=2017-06-12 14:19:22
+Downloaded=2025-03-30 05:46:30
+3D=Y

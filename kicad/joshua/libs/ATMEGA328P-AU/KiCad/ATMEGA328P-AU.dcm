@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA328P-AU
+D MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32
+K
+F https://componentsearchengine.com/Datasheets/2/ATMEGA328P-AU.pdf
+$ENDCMP
+#
+#End Doc Library

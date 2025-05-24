@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386N-4_NOPB
+D Audio power amplifier,LM386N-4 1W Texas Instruments LM386N-4/NOPB Audio Amplifier, Class-AB Mono, 8-Pin MDIP
+K
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+#End Doc Library

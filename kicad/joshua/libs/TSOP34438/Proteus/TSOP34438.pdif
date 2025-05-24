@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TSOP34438"
+   (description "IR Remote Receiver 38KHz 45m")
+   (family "ANA")
+   (package "TSOP34438")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/82489/tsop322.pdf")
+   (attribute "Geometry.Height" "10.25mm")
+   (attribute "Mouser Part Number" "78-TSOP34438")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TSOP34438?qs=RzxYCzJDjPVT3TKEZ1O4pg%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "TSOP34438")
+   (gate
+    (symbol "TSOP34438")
+    (pin "OUT" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "VS" 3 PS)
+   )
+  )
+  (symbol "TSOP34438"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TSOP34438"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.46 1.55)
+      (pt 5.54 1.55)
+      (pt 5.54 -4.05)
+      (pt -0.46 -4.05)
+      (pt -0.46 1.55))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.76 2.05)
+      (pt 6.405 2.05)
+      (pt 6.405 -4.55)
+      (pt -1.76 -4.55)
+      (pt -1.76 2.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.16 0.05)
+      (arc (pt -1.160 0.050) (pt -1.260 -0.150) (pt -1.060 0.050) (start 180.0) (sweep 90.0))
+      (pt -1.16 -0.15)
+      (arc (pt -1.160 -0.150) (pt -1.260 -0.150) (pt -1.060 0.050) (start 180.0) (sweep -90.0))
+      (pt -1.16 0.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.46 1.05)
+      (pt -0.46 1.55)
+      (pt 5.54 1.55)
+      (pt 5.54 1.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.46 -1.45)
+      (pt -0.46 -4.05)
+      (pt 5.54 -4.05)
+      (pt 5.54 -1.45))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (model "TSOP34438.stp"
+    (euler 0 0 0)
+    (offset 2.5199999809265137 -0.23000000417232513 6.940000057220459)
+   )
+  )
+ )
+)

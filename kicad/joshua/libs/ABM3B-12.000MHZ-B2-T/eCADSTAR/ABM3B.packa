@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ABM3B-12_000MHZ-B2-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "ABM3B")
+        (spec "System")
+    )
+)

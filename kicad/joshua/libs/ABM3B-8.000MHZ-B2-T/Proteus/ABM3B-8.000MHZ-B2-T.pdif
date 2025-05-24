@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABM3B-8.000MHZ-B2-T"
+   (description "8 MHz +/-20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead")
+   (family "OSC")
+   (package "ABM3B")
+   (attribute "Datasheet Link" "https://abracon.com/Resonators/abm3b.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "815-ABM3B-8.0-B2-T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-8.000MHZ-B2-T?qs=NE97hfUNX0Ef9OqIOqO2cA%3D%3D")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABM3B-8.000MHZ-B2-T")
+   (gate
+    (symbol "ABM3B-8.000MHZ-B2-T")
+    (pin "XTAL_1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "XTAL_2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ABM3B-8.000MHZ-B2-T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABM3B"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -2.5 1.6)
+      (pt 2.5 1.6)
+      (pt 2.5 -1.6)
+      (pt -2.5 -1.6)
+      (pt -2.5 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.75 1.6)
+      (pt 0.75 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.75 -1.6)
+      (pt 0.75 -1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -2.20003 -2.106) (pt -2.08197 -2.106)
+     )
+    )
+   )
+   (leg 1 (pt -2 -1.2) (padstack 0))
+   (leg 2 (pt 2 -1.2) (padstack 0))
+   (leg 3 (pt 2 1.2) (padstack 0))
+   (leg 4 (pt -2 1.2) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.2 1.8 0 0 0))
+   )
+   (model "ABM3B-8.000MHZ-B2-T.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

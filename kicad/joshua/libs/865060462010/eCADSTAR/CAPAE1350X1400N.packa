@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "865060462010"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-08-21:46:30)
+    (mountForm default
+        (footprintRef "CAPAE1350X1400N")
+        (spec "System")
+    )
+)

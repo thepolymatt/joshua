@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/19460701/1381971/2.50/5/2/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c255_h170" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="66.929133858267">
+    <padshape layer="TOP" shape="round" width="100.3937007874" height="100.3937007874" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="108.26771653543" height="108.26771653543" />
+    <padshape layer="INNER" shape="round" width="100.3937007874" height="100.3937007874" />
+    <padshape layer="BOTTOM" shape="round" width="100.3937007874" height="100.3937007874" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="108.26771653543" height="108.26771653543" />
+  </padstyle>
+  <padstyle name="s225_h150" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="59.055118110235">
+    <padshape layer="TOP" shape="square" width="88.582677165353" height="88.582677165353" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="96.456692913385" height="96.456692913385" />
+    <padshape layer="INNER" shape="square" width="88.582677165353" height="88.582677165353" />
+    <padshape layer="BOTTOM" shape="square" width="88.582677165353" height="88.582677165353" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="96.456692913385" height="96.456692913385" />
+  </padstyle>
+  <footprint name="9011436RFX" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s225_h150" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c255_h170" originx="-99.999999999999" originy="-99.999999999999" rotation="90" />
+    <pcbpin number="3" name="3" style="c255_h170" originx="99.999999999999" originy="-99.999999999999" rotation="90" />
+    <pcbpin number="4" name="4" style="c255_h170" originx="99.999999999999" originy="99.999999999999" rotation="90" />
+    <pcbpin number="5" name="5" style="c255_h170" originx="-99.999999999999" originy="99.999999999999" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-137.79527559055" originy="137.79527559055" endx="137.79527559055" endy="137.79527559055" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="137.79527559055" originy="137.79527559055" endx="137.79527559055" endy="-137.79527559055" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="137.79527559055" originy="-137.79527559055" endx="-137.79527559055" endy="-137.79527559055" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-137.79527559055" originy="-137.79527559055" endx="-137.79527559055" endy="137.79527559055" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-189.56692913386" originy="189.56692913386" endx="496.06299212598" endy="189.56692913386" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="496.06299212598" originy="189.56692913386" endx="496.06299212598" endy="-189.56692913386" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="496.06299212598" originy="-189.56692913386" endx="-189.56692913386" endy="-189.56692913386" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-189.56692913386" originy="-189.56692913386" endx="-189.56692913386" endy="189.56692913386" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="137.79527559055" originy="105.9842519685" endx="196.85039370078" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="196.85039370078" originy="105.9842519685" endx="196.85039370078" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="196.85039370078" originy="-105.9842519685" endx="137.79527559055" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="196.85039370078" originy="94.488188976377" endx="236.22047244094" endy="94.488188976377" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="236.22047244094" originy="94.488188976377" endx="236.22047244094" endy="-94.488188976377" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="236.22047244094" originy="-94.488188976377" endx="196.85039370078" endy="-94.488188976377" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="433.07086614173" originy="98.425196850392" endx="456.69291338582" endy="98.425196850392" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="456.69291338582" originy="98.425196850392" endx="456.69291338582" endy="-99.999999999999" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="456.69291338582" originy="-99.999999999999" endx="433.07086614173" endy="-99.999999999999" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="236.22047244094" originy="94.488188976377" endx="255.90551181102" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="255.90551181102" originy="105.9842519685" endx="275.5905511811" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="275.5905511811" originy="-105.9842519685" endx="295.27559055118" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="295.27559055118" originy="105.9842519685" endx="314.96062992126" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="314.96062992126" originy="-105.9842519685" endx="334.64566929133" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="334.64566929133" originy="105.9842519685" endx="354.33070866141" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="354.33070866141" originy="-105.9842519685" endx="374.01574803149" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="374.01574803149" originy="105.9842519685" endx="393.70078740157" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="393.70078740157" originy="-105.9842519685" endx="413.38582677165" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="413.38582677165" originy="105.9842519685" endx="433.07086614173" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="433.07086614173" originy="-105.9842519685" endx="433.07086614173" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="433.07086614173" originy="105.9842519685" endx="413.38582677165" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="413.38582677165" originy="-105.9842519685" endx="393.70078740157" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="393.70078740157" originy="105.9842519685" endx="374.01574803149" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="374.01574803149" originy="-105.9842519685" endx="354.33070866141" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="354.33070866141" originy="105.9842519685" endx="334.64566929133" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="334.64566929133" originy="-105.9842519685" endx="314.96062992126" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="314.96062992126" originy="105.9842519685" endx="295.27559055118" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="295.27559055118" originy="-105.9842519685" endx="275.5905511811" endy="105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="275.5905511811" originy="105.9842519685" endx="255.90551181102" endy="-105.9842519685" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="255.90551181102" originy="-105.9842519685" endx="236.22047244094" endy="-94.488188976377" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="169.29133858268" originy="105.9842519685" endx="196.85039370078" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="196.85039370078" originy="105.9842519685" endx="196.85039370078" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="196.85039370078" originy="-105.9842519685" endx="169.29133858268" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="196.85039370078" originy="94.488188976377" endx="236.22047244094" endy="94.488188976377" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="236.22047244094" originy="94.488188976377" endx="236.22047244094" endy="-94.488188976377" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="236.22047244094" originy="-94.488188976377" endx="196.85039370078" endy="-94.488188976377" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="236.22047244094" originy="94.488188976377" endx="255.90551181102" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="255.90551181102" originy="105.9842519685" endx="275.5905511811" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="275.5905511811" originy="-105.9842519685" endx="295.27559055118" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="295.27559055118" originy="105.9842519685" endx="314.96062992126" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="314.96062992126" originy="-105.9842519685" endx="334.64566929133" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="334.64566929133" originy="105.9842519685" endx="354.33070866141" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="354.33070866141" originy="-105.9842519685" endx="374.01574803149" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="374.01574803149" originy="105.9842519685" endx="393.70078740157" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="393.70078740157" originy="-105.9842519685" endx="413.38582677165" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="413.38582677165" originy="105.9842519685" endx="433.07086614173" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="433.07086614173" originy="-105.9842519685" endx="433.07086614173" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="433.07086614173" originy="105.9842519685" endx="413.38582677165" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="413.38582677165" originy="-105.9842519685" endx="393.70078740157" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="393.70078740157" originy="105.9842519685" endx="374.01574803149" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="374.01574803149" originy="-105.9842519685" endx="354.33070866141" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="354.33070866141" originy="105.9842519685" endx="334.64566929133" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="334.64566929133" originy="-105.9842519685" endx="314.96062992126" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="314.96062992126" originy="105.9842519685" endx="295.27559055118" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="295.27559055118" originy="-105.9842519685" endx="275.5905511811" endy="105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="275.5905511811" originy="105.9842519685" endx="255.90551181102" endy="-105.9842519685" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="255.90551181102" originy="-105.9842519685" endx="236.22047244094" endy="-94.488188976377" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="433.07086614173" originy="98.425196850392" endx="456.69291338582" endy="98.425196850392" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="456.69291338582" originy="98.425196850392" endx="456.69291338582" endy="-99.999999999999" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="456.69291338582" originy="-99.999999999999" endx="433.07086614173" endy="-99.999999999999" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-39.370078740157" originy="-137.79527559055" endx="39.370078740157" endy="-137.79527559055" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-137.79527559055" originy="39.370078740157" endx="-137.79527559055" endy="-39.370078740157" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="137.79527559055" originy="39.370078740157" endx="137.79527559055" endy="-39.370078740157" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-39.370078740157" originy="137.79527559055" endx="39.370078740157" endy="137.79527559055" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-165.35433070866" originy="0" endx="-165.35433070866" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-167.32283464567" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-169.29133858268" originy="0" endx="-169.29133858268" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-167.32283464567" originy="0" startangle="-180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="901-143-6RFX" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="3" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="600" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="570" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="4" />
+      <text name="pindes" originx="660" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="600" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="570" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="5" />
+      <text name="pindes" originx="660" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="5" />
+    </sympin>
+  </symbol>
+  <component name="901-143-6RFX" designatorprefix="J" height="396.06299212598" footprint="9011436RFX">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="3" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="4" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="5" />
+    <attached_symbol gate="1" name="901-143-6RFX" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.amphenolrf.com/library/download/link/link_id/593644/parent/901-143-6RFX/" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder " />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="523-901-143-6RFX" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/901-143-6RFX?qs=Kdyc7Q8pFhpGGXyYYV%2FtdA%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Amphenol RF" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="901-143-6RFX" />
+  </component>
+</quadcept_library>

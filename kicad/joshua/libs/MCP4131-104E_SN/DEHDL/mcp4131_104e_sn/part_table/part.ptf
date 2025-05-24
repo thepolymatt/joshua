@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP4131_104E_SN'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP4131-104E/SN" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "579-MCP4131-104E/SN", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4131-104E-SN?qs=hH%252BOa0VZEiCC5jnuF305ZA%3D%3D", "MCP4131-104E/SN, Digital Potentiometer 100k 129-Position Linear Serial-SPI 8-Pin SOIC", "http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf", "1.75 mm"
+END_PART
+
+END.

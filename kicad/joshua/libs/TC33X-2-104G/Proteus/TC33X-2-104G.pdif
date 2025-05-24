@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TC33X-2-104G"
+   (description "Trimmer Resistors - SMD 3MM 100KOHMS 25% 0.1WATT OPEN FRM")
+   (family "ANA")
+   (package "TC33X2503E")
+   (attribute "Datasheet Link" "https://www.bourns.com/pdfs/TC33.pdf")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Mouser Part Number" "652-TC33X-2-104G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC33X-2-104G?qs=BtXNgStUhyhDGshy3g2MHg%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "TC33X-2-104G")
+   (gate
+    (symbol "TC33X-2-104G")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "TC33X-2-104G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TC33X2503E"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.8 1.9)
+      (pt 1.8 1.9)
+      (pt 1.8 -1.9)
+      (pt -1.8 -1.9)
+      (pt -1.8 1.9))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 3.3)
+      (pt 2.8 3.3)
+      (pt 2.8 -3.636)
+      (pt -2.8 -3.636)
+      (pt -2.8 3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.8 1.9)
+      (pt -1.8 -1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.8 -1.9)
+      (pt 1.8 1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.02200000000000002)
+     (path
+      (closed true)
+      (pt -1.052 -2.625)
+      (arc (pt -1.052 -2.625) (pt -1.052 -2.636) (pt -1.030 -2.614) (start 180.0) (sweep 180.0))
+      (pt -1.03 -2.625)
+      (arc (pt -1.030 -2.625) (pt -1.052 -2.636) (pt -1.030 -2.614) (start 180.0) (sweep .0))
+      (pt -1.052 -2.625))))
+   (leg 1 (pt -1.000 -1.700) (padstack 0))
+   (leg 2 (pt 0.000 1.550) (padstack 2))
+   (leg 3 (pt 1.000 -1.700) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 1.200))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 1.600 0 0 0.000))
+   )
+   (model "TC33X-2-104G.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.2800000011920929)
+   )
+  )
+ )
+)

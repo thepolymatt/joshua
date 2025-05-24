@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=TSOP34438
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=3
+Version=2.1
+Released=2019-03-11 12:08:18
+Downloaded=2025-03-30 00:50:12
+3D=Y

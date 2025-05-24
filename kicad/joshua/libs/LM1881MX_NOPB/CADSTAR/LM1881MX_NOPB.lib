@@ -1,0 +1,16 @@
+.LM1881MX_NOPB :1 ;Video Sync Separator
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="CSOUT" 2="CVIN" 3="VSOUT" 4="GND" 5="BPOUT" 6="RSET" 7="OEOUT" 8="VCC"
+*MXP 8
+*DFN LM1881MX_NOPB
+~!Arrow Part Number (LM1881MX/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm1881mxnopb/texas-instruments?utm_currency=USD&region=nac)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM1881MX/NOPB)
+~!Link Datasheet (https://www.arrow.com/en/products/lm1881mxnopb/texas-instruments?utm_currency=USD&region=nac)
+~!Height (1.75mm)
+~!3D_Model (LM1881MX_NOPB)
+LM1881MX_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

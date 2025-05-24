@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/256759/1381971/2.50/2/2/Capacitor Polarised/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r400_160" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="62.992125984251" height="157.48031496063" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="70.866141732283" height="165.35433070866" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="62.992125984251" height="157.48031496063" />
+  </padstyle>
+  <footprint name="EEE1AA221P" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r400_160" originx="-122.04724409449" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="r400_160" originx="122.04724409449" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-259.84251968504" originy="202.75590551181" endx="232.28346456693" endy="202.75590551181" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="232.28346456693" originy="202.75590551181" endx="232.28346456693" endy="-202.75590551181" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="232.28346456693" originy="-202.75590551181" endx="-259.84251968504" endy="-202.75590551181" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-259.84251968504" originy="-202.75590551181" endx="-259.84251968504" endy="202.75590551181" width="1.9685039370079" />
+    <line layer="TOP_SILKSCREEN" originx="-225.3937007874" originy="0" endx="-225.3937007874" endy="0" width="1.9685039370079" />
+    <arc layer="TOP_SILKSCREEN" originx="-224.40944881889" originy="0" startangle="-180.0" sweepangle="180.0" radius="0.98425196850393" width="1.9685039370079" />
+    <line layer="TOP_SILKSCREEN" originx="-223.42519685039" originy="0" endx="-223.42519685039" endy="0" width="1.9685039370079" />
+    <arc layer="TOP_SILKSCREEN" originx="-224.40944881889" originy="0" startangle=".0" sweepangle="180.0" radius="0.98425196850393" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-163.38582677165" originy="78.740157480314" endx="-98.425196850392" endy="163.38582677165" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="163.38582677165" endx="163.38582677165" endy="163.38582677165" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="163.38582677165" originy="163.38582677165" endx="163.38582677165" endy="-157.48031496063" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="163.38582677165" originy="-157.48031496063" endx="163.38582677165" endy="-163.38582677165" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="163.38582677165" originy="-163.38582677165" endx="-98.425196850392" endy="-163.38582677165" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="-163.38582677165" endx="-163.38582677165" endy="-78.740157480314" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-163.38582677165" originy="-78.740157480314" endx="-163.38582677165" endy="78.740157480314" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-163.38582677165" originy="78.740157480314" endx="-98.425196850392" endy="163.38582677165" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-163.38582677165" originy="78.740157480314" endx="-98.425196850392" endy="163.38582677165" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="163.38582677165" endx="163.38582677165" endy="163.38582677165" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="163.38582677165" originy="163.38582677165" endx="163.38582677165" endy="78.740157480314" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-163.38582677165" originy="-78.740157480314" endx="-98.425196850392" endy="-163.38582677165" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="-163.38582677165" endx="163.38582677165" endy="-163.38582677165" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="163.38582677165" originy="-163.38582677165" endx="163.38582677165" endy="-78.740157480314" width="7.8740157480314" />
+  </footprint>
+  <symbol name="EEE-1CA101AP" originx="0" originy="0">
+    <line originx="200" originy="100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="230" endy="100" width="0" />
+    <line originx="200" originy="100" endx="230" endy="100" width="0" />
+    <line originx="180" originy="50" endx="140" endy="50" width="0" />
+    <line originx="160" originy="70" endx="160" endy="30" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="300" originy="0" endx="400" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="+" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="400" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="-" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="300" y="100" />
+      <point x="300" y="-100" />
+      <point x="270" y="-100" />
+      <point x="270" y="100" />
+    </polygon>
+  </symbol>
+  <component name="EEE-1CA101AP" designatorprefix="C" height="374.01574803149" footprint="EEE1AA221P">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="-" />
+    <attached_symbol gate="1" name="EEE-1CA101AP" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Panasonic 100F 16V dc Aluminium Electrolytic Capacitor, Surface Mount 8 x 6.2mm +85C 8mm 6.2mm" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="667-EEE-1CA101AP" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1CA101AP?qs=d1CqaRUMZD%252BJh7voC3Lmtg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Panasonic" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="EEE-1CA101AP" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MCP4131-104E_SN"
+   (description "MCP4131-104E/SN, Digital Potentiometer 100k 129-Position Linear Serial-SPI 8-Pin SOIC")
+   (family "ANA")
+   (package "SOIC127P600X175-8N")
+   (attribute "Datasheet Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf")
+   (attribute "Geometry.Height" "1.75mm")
+   (attribute "Mouser Part Number" "579-MCP4131-104E/SN")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4131-104E-SN?qs=hH%252BOa0VZEiCC5jnuF305ZA%3D%3D")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "MCP4131-104E/SN")
+   (gate
+    (symbol "MCP4131-104E_SN")
+    (pin "$CS$" 1 PS)
+    (pin "SCK" 2 PS)
+    (pin "SDI/SDO" 3 PS)
+    (pin "VSS" 4 PS)
+    (pin "VDD" 8 PS)
+    (pin "P0B" 7 PS)
+    (pin "P0W" 6 PS)
+    (pin "P0A" 5 PS)
+   )
+  )
+  (symbol "MCP4131-104E_SN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P600X175-8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.7 2.7)
+      (pt 3.7 2.7)
+      (pt 3.7 -2.7)
+      (pt -3.7 -2.7)
+      (pt -3.7 2.7))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 2.45)
+      (pt 1.95 2.45)
+      (pt 1.95 -2.45)
+      (pt -1.95 -2.45)
+      (pt -1.95 2.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 1.18)
+      (pt -0.68 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 2.45)
+      (pt 1.6 2.45)
+      (pt 1.6 -2.45)
+      (pt -1.6 -2.45)
+      (pt -1.6 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.45 2.58)
+      (pt -1.95 2.58))))
+   (leg 1 (pt -2.7 1.905) (padstack 0))
+   (leg 2 (pt -2.7 0.635) (padstack 0))
+   (leg 3 (pt -2.7 -0.635) (padstack 0))
+   (leg 4 (pt -2.7 -1.905) (padstack 0))
+   (leg 5 (pt 2.7 -1.905) (padstack 0))
+   (leg 6 (pt 2.7 -0.635) (padstack 0))
+   (leg 7 (pt 2.7 0.635) (padstack 0))
+   (leg 8 (pt 2.7 1.905) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.5 0 0 0))
+   )
+   (model "MCP4131-104E_SN.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

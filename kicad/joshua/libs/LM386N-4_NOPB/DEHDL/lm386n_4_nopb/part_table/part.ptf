@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM386N_4_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM386N-4/NOPB" (!) = "", "DIP794W53P254L959H508Q8N", "Dual-In-Line Packages", "926-LM386N-4/NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM386N-4-NOPB?qs=QbsRYf82W3FsJPldcpZj5g%3D%3D", "Audio power amplifier,LM386N-4 1W Texas Instruments LM386N-4/NOPB Audio Amplifier, Class-AB Mono, 8-Pin MDIP", "http://www.ti.com/lit/ds/symlink/lm386.pdf", "5.08 mm"
+END_PART
+
+END.

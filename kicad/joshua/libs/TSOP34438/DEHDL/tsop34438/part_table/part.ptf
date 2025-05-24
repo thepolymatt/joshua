@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TSOP34438'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "TSOP34438" (!) = "", "TSOP34438", "Other", "78-TSOP34438", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TSOP34438?qs=RzxYCzJDjPVT3TKEZ1O4pg%3D%3D", "IR Remote Receiver 38KHz 45m", "https://www.vishay.com/docs/82489/tsop322.pdf", "10.25 mm"
+END_PART
+
+END.

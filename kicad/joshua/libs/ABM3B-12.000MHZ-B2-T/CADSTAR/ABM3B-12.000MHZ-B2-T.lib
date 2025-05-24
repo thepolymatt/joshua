@@ -1,0 +1,16 @@
+.ABM3B-12.000MHZ-B2-T :1 ;12 MHz +/-20ppm Crystal 18pF 70 Ohms 4-SMD, No Lead
+ABM3B
+*STM Y
+*NGS
+*PLB 1="XTAL_1" 2="GND_1" 3="XTAL_2" 4="GND_2"
+*MXP 4
+*DFN ABM3B-12.000MHZ-B2-T
+~!Mouser Part Number (815-ABM3B-12-B2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-12.000MHZ-B2-T?qs=zLkLEWnxMJw3nxR9EliMcw%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABM3B-12.000MHZ-B2-T)
+~!Link Datasheet (https://abracon.com/Resonators/abm3b.pdf)
+~!Height (1.1mm)
+~!3D_Model (ABM3B-12.000MHZ-B2-T)
+ABM3B-12.000MHZ-B2-T
+1.1!U 2.1!U 3.1!U 4.1!U 

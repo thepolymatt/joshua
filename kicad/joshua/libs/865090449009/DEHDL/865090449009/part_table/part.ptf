@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '865090449009'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "865090449009" (!) = "", "CAPAE830X650N", "Capacitor Al Electrolytic", "710-865090449009", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865090449009?qs=0KOYDY2FL29%2F%2FAkRd1dwYw%3D%3D", "Wurth Elektronik 100uF 25 V dc Aluminium Electrolytic Capacitor, WCAP-ASLU Series 1000h 6.5 (Dia.) x 7.85mm", "https://www.we-online.com/catalog/datasheet/865090449009.pdf", "6.5 mm"
+END_PART
+
+END.

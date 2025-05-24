@@ -1,0 +1,16 @@
+.LM386N-4_NOPB :1 ;Audio power amplifier,LM386N-4 1W Texas Instruments LM386N-4/NOPB Audio Amplifier, Class-AB Mono, 8-Pin MDIP
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="GAIN_1" 2="- INPUT" 3="+ INPUT" 4="GND" 5="VOUT" 6="VS" 7="BYPASS" 8="GAIN_2"
+*MXP 8
+*DFN LM386N-4_NOPB
+~!Mouser Part Number (926-LM386N-4/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM386N-4-NOPB?qs=QbsRYf82W3FsJPldcpZj5g%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM386N-4/NOPB)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lm386.pdf)
+~!Height (5.08mm)
+~!3D_Model (LM386N-4_NOPB)
+LM386N-4_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

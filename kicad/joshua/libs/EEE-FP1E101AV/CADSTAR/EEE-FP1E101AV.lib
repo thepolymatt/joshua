@@ -1,0 +1,16 @@
+.EEE-FP1E101AV :1 ;Aluminium Electroyltic Capacitor, Radial, Vibration-Proof
+EEEFP0J331AV
+*STM C
+*NGS
+*PLB 1="+_1" 2="-_1" 3="+_2" 4="+_3" 5="-_2" 6="-_3"
+*MXP 6
+*DFN EEE-FP1E101AV
+~!Mouser Part Number (667-EEE-FP1E101AV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-FP1E101AV?qs=PzGy0jfpSMucYz8VB9%2FWvg%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EEE-FP1E101AV)
+~!Link Datasheet (http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf)
+~!Height (6.5mm)
+~!3D_Model (EEE-FP1E101AV)
+EEE-FP1E101AV
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,16 @@
+.TSOP34438 :1 ;IR Remote Receiver 38KHz 45m
+TSOP34438
+*STM U
+*NGS
+*PLB 1="OUT" 2="GND" 3="VS"
+*MXP 3
+*DFN TSOP34438
+~!Mouser Part Number (78-TSOP34438)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TSOP34438?qs=RzxYCzJDjPVT3TKEZ1O4pg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TSOP34438)
+~!Link Datasheet (https://www.vishay.com/docs/82489/tsop322.pdf)
+~!Height (10.25mm)
+~!3D_Model (TSOP34438)
+TSOP34438
+1.1!U 2.1!U 3.1!U 

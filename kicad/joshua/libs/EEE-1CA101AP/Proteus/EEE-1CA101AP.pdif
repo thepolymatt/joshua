@@ -1,0 +1,136 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EEE-1CA101AP"
+   (description "Panasonic 100F 16V dc Aluminium Electrolytic Capacitor, Surface Mount 8 x 6.2mm +85C 8mm 6.2mm")
+   (family "CAP")
+   (package "EEE1AA221P")
+   (attribute "Datasheet Link" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf")
+   (attribute "Geometry.Height" "9.5mm")
+   (attribute "Mouser Part Number" "667-EEE-1CA101AP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1CA101AP?qs=d1CqaRUMZD%252BJh7voC3Lmtg%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "EEE-1CA101AP")
+   (gate
+    (symbol "EEE-1CA101AP")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "EEE-1CA101AP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "EEE1AA221P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -6.6 5.15)
+      (pt 5.9 5.15)
+      (pt 5.9 -5.15)
+      (pt -6.6 -5.15)
+      (pt -6.6 5.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.725 0)
+      (arc (pt -5.725 0.000) (pt -5.725 -0.025) (pt -5.675 0.025) (start 180.0) (sweep -180.0))
+      (pt -5.675 0)
+      (arc (pt -5.675 0.000) (pt -5.725 -0.025) (pt -5.675 0.025) (start 180.0) (sweep .0))
+      (pt -5.725 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.15 2)
+      (pt -2.5 4.15)
+      (pt 4.15 4.15)
+      (pt 4.15 -4)
+      (pt 4.15 -4.15)
+      (pt -2.5 -4.15)
+      (pt -4.15 -2)
+      (pt -4.15 2)
+      (pt -2.5 4.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.15 2)
+      (pt -2.5 4.15)
+      (pt 4.15 4.15)
+      (pt 4.15 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.15 -2)
+      (pt -2.5 -4.15)
+      (pt 4.15 -4.15)
+      (pt 4.15 -2))))
+   (leg 1 (pt -3.100 0.000) (padstack 0))
+   (leg 2 (pt 3.100 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.600 4.000 0 0 0.000))
+   )
+   (model "EEE-1CA101AP.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

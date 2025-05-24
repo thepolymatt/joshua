@@ -1,0 +1,16 @@
+.EEE-1CA101AP :1 ;Panasonic 100F 16V dc Aluminium Electrolytic Capacitor, Surface Mount 8 x 6.2mm +85C 8mm 6.2mm
+EEE1AA221P
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN EEE-1CA101AP
+~!Mouser Part Number (667-EEE-1CA101AP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-1CA101AP?qs=d1CqaRUMZD%252BJh7voC3Lmtg%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EEE-1CA101AP)
+~!Link Datasheet (http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf)
+~!Height (9.5mm)
+~!3D_Model (EEE-1CA101AP)
+EEE-1CA101AP
+1.1!U 2.1!U 

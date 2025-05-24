@@ -1,0 +1,258 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "901-143-6RFX"
+   (description "SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder ")
+   (family "CON")
+   (package "9011436RFX")
+   (attribute "Datasheet Link" "https://www.amphenolrf.com/library/download/link/link_id/593644/parent/901-143-6RFX/")
+   (attribute "Geometry.Height" "10.06mm")
+   (attribute "Mouser Part Number" "523-901-143-6RFX")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/901-143-6RFX?qs=Kdyc7Q8pFhpGGXyYYV%2FtdA%3D%3D")
+   (attribute "Manufacturer_Name" "Amphenol RF")
+   (attribute "Manufacturer_Part_Number" "901-143-6RFX")
+   (gate
+    (symbol "901-143-6RFX")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+   )
+  )
+  (symbol "901-143-6RFX"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "9011436RFX"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 3.5)
+      (pt 3.5 3.5)
+      (pt 3.5 -3.5)
+      (pt -3.5 -3.5)
+      (pt -3.5 3.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.815 4.815)
+      (pt 12.6 4.815)
+      (pt 12.6 -4.815)
+      (pt -4.815 -4.815)
+      (pt -4.815 4.815))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.5 2.692)
+      (pt 5 2.692)
+      (pt 5 -2.692)
+      (pt 3.5 -2.692))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 5 2.4)
+      (pt 6 2.4)
+      (pt 6 -2.4)
+      (pt 5 -2.4))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 11 2.5)
+      (pt 11.6 2.5)
+      (pt 11.6 -2.54)
+      (pt 11 -2.54))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 6 2.4)
+      (pt 6.5 2.692)
+      (pt 7 -2.692)
+      (pt 7.5 2.692)
+      (pt 8 -2.692)
+      (pt 8.5 2.692)
+      (pt 9 -2.692)
+      (pt 9.5 2.692)
+      (pt 10 -2.692)
+      (pt 10.5 2.692)
+      (pt 11 -2.692)
+      (pt 11 2.692)
+      (pt 10.5 -2.692)
+      (pt 10 2.692)
+      (pt 9.5 -2.692)
+      (pt 9 2.692)
+      (pt 8.5 -2.692)
+      (pt 8 2.692)
+      (pt 7.5 -2.692)
+      (pt 7 2.692)
+      (pt 6.5 -2.692)
+      (pt 6 -2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 4.3 2.692)
+      (pt 5 2.692)
+      (pt 5 -2.692)
+      (pt 4.3 -2.692))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5 2.4)
+      (pt 6 2.4)
+      (pt 6 -2.4)
+      (pt 5 -2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6 2.4)
+      (pt 6.5 2.692)
+      (pt 7 -2.692)
+      (pt 7.5 2.692)
+      (pt 8 -2.692)
+      (pt 8.5 2.692)
+      (pt 9 -2.692)
+      (pt 9.5 2.692)
+      (pt 10 -2.692)
+      (pt 10.5 2.692)
+      (pt 11 -2.692)
+      (pt 11 2.692)
+      (pt 10.5 -2.692)
+      (pt 10 2.692)
+      (pt 9.5 -2.692)
+      (pt 9 2.692)
+      (pt 8.5 -2.692)
+      (pt 8 2.692)
+      (pt 7.5 -2.692)
+      (pt 7 2.692)
+      (pt 6.5 -2.692)
+      (pt 6 -2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11 2.5)
+      (pt 11.6 2.5)
+      (pt 11.6 -2.54)
+      (pt 11 -2.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1 -3.5)
+      (pt 1 -3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.5 1)
+      (pt -3.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.5 1)
+      (pt 3.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1 3.5)
+      (pt 1 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.2 0)
+      (arc (pt -4.200 0.000) (pt -4.300 -0.050) (pt -4.200 0.050) (start 180.0) (sweep .0))
+      (pt -4.3 0)
+      (arc (pt -4.300 0.000) (pt -4.300 -0.050) (pt -4.200 0.050) (start 180.0) (sweep -180.0))
+      (pt -4.2 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -2.540 -2.540) (padstack 0))
+   (leg 3 (pt 2.540 -2.540) (padstack 0))
+   (leg 4 (pt 2.540 2.540) (padstack 0))
+   (leg 5 (pt -2.540 2.540) (padstack 0))
+   (padstack 0
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (round 2.550))
+   )
+   (padstack 1
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (square 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (square 2.250))
+   )
+   (model "901-143-6RFX.stp"
+    (euler -90 0 0)
+    (offset -0.03999999910593033 0 6.380000114440918)
+   )
+  )
+ )
+)

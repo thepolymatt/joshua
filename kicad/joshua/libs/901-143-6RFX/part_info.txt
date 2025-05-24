@@ -1,0 +1,9 @@
+Manufacturer=Amphenol RF
+PartNumber=901-143-6RFX
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=4.6
+Released=2024-04-23 08:44:18
+Downloaded=2025-03-31 21:37:46
+3D=Y

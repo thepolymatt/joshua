@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=TC42X-2-103E
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2018-11-09 11:23:03
+Downloaded=2025-03-30 20:43:26
+3D=Y

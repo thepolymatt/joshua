@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TC42X_2_103E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "TC42X-2-103E" (!) = "", "TC42X2103E", "Other", "652-TC42X-2-103E", "https://www.mouser.co.uk/ProductDetail/Bourns/TC42X-2-103E?qs=A%2FHKLTFiEJHcHOe8iLlyyQ%3D%3D", "Trimmer Resistors - SMD 10K 2mm SMD Single Turn", "http://www.bourns.com/docs/Product-Datasheets/TC42.pdf", "0.9 mm"
+END_PART
+
+END.

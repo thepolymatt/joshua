@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM386N-4/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=3.4
+Released=2017-03-24 23:38:57
+Downloaded=2025-03-29 23:32:58
+3D=Y

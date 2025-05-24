@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM1881MX_NOPB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-25-10:58:14)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

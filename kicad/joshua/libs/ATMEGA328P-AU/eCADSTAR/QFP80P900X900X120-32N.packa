@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATMEGA328P-AU"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "QFP80P900X900X120-32N")
+        (spec "System")
+    )
+)

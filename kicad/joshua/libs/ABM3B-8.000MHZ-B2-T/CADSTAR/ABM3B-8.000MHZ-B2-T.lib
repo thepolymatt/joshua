@@ -1,0 +1,16 @@
+.ABM3B-8.000MHZ-B2-T :1 ;8 MHz +/-20ppm Crystal 18pF 200 Ohms 4-SMD, No Lead
+ABM3B
+*STM Y
+*NGS
+*PLB 1="XTAL_1" 2="GND_1" 3="XTAL_2" 4="GND_2"
+*MXP 4
+*DFN ABM3B-8.000MHZ-B2-T
+~!Mouser Part Number (815-ABM3B-8.0-B2-T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3B-8.000MHZ-B2-T?qs=NE97hfUNX0Ef9OqIOqO2cA%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABM3B-8.000MHZ-B2-T)
+~!Link Datasheet (https://abracon.com/Resonators/abm3b.pdf)
+~!Height (1.1mm)
+~!3D_Model (ABM3B-8.000MHZ-B2-T)
+ABM3B-8.000MHZ-B2-T
+1.1!U 2.1!U 3.1!U 4.1!U 

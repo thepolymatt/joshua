@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=RCJ-011
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=3.1
+Released=2018-11-22 20:00:57
+Downloaded=2025-04-06 07:27:17
+3D=N

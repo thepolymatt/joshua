@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABM3B-12.000MHZ-B2-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=2.3
+Released=2023-04-06 09:48:13
+Downloaded=2025-04-06 07:17:30
+3D=Y

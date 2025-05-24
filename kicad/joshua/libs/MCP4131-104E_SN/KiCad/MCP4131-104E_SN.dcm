@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4131-104E_SN
+D MCP4131-104E/SN, Digital Potentiometer 100k 129-Position Linear Serial-SPI 8-Pin SOIC
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf
+$ENDCMP
+#
+#End Doc Library

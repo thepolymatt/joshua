@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1007998"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-09-11:23:03)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "TC42X-2-103E")
+)
+
+
+(pinAssign "ECS_1007998"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-09-11:23:03)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1007998")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TC42X-2-103E")
+)
+
+
+(part "TC42X-2-103E"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-09-11:23:03)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "TC42X-2-103E")
+    (pinAssignRef "ECS_1007998")
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "VR")
+    (property "description" "Trimmer Resistors - SMD 10K 2mm SMD Single Turn")
+    (property "Mouser_Part_Number" "652-TC42X-2-103E")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/TC42X-2-103E?qs=A%2FHKLTFiEJHcHOe8iLlyyQ%3D%3D")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "TC42X-2-103E")
+    (property "Datasheet_Link" "http://www.bourns.com/docs/Product-Datasheets/TC42.pdf")
+    (property "compAreaTopHeight" 0.9)
+)
+
+

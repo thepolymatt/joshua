@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=TC33X-2-104G
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.5
+Released=2019-02-25 17:03:24
+Downloaded=2025-03-30 20:42:11
+3D=Y

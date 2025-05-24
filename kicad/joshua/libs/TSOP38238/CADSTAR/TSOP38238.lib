@@ -1,0 +1,16 @@
+.TSOP38238 :1 ;IR Remote Receiver 38KHz 45m
+TSOP38238
+*STM IC
+*NGS
+*PLB 1="OUT" 2="GND" 3="VS"
+*MXP 3
+*DFN TSOP38238
+~!Mouser Part Number (782-TSOP38238)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TSOP38238?qs=RzxYCzJDjPVjpHVZS582Ng%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TSOP38238)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (TSOP38238)
+TSOP38238
+1.1!U 2.1!U 3.1!U 

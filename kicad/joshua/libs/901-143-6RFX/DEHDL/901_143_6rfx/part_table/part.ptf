@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '901_143_6RFX'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol RF", "901-143-6RFX" (!) = "", "9011436RFX", "Other", "523-901-143-6RFX", "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/901-143-6RFX?qs=Kdyc7Q8pFhpGGXyYYV%2FtdA%3D%3D", "SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder ", "https://www.amphenolrf.com/library/download/link/link_id/593644/parent/901-143-6RFX/", "10.06 mm"
+END_PART
+
+END.

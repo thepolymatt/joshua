@@ -1,0 +1,151 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM386N-4_NOPB"
+   (description "Audio power amplifier,LM386N-4 1W Texas Instruments LM386N-4/NOPB Audio Amplifier, Class-AB Mono, 8-Pin MDIP")
+   (family "ANA")
+   (package "DIP794W53P254L959H508Q8N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/ds/symlink/lm386.pdf")
+   (attribute "Geometry.Height" "5.08mm")
+   (attribute "Mouser Part Number" "926-LM386N-4/NOPB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM386N-4-NOPB?qs=QbsRYf82W3FsJPldcpZj5g%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM386N-4/NOPB")
+   (gate
+    (symbol "LM386N-4_NOPB")
+    (pin "GAIN_1" 1 PS)
+    (pin "-_INPUT" 2 PS)
+    (pin "+_INPUT" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "GAIN_2" 8 PS)
+    (pin "BYPASS" 7 PS)
+    (pin "VS" 6 PS)
+    (pin "VOUT" 5 PS)
+   )
+  )
+  (symbol "LM386N-4_NOPB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIP794W53P254L959H508Q8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.945 5.33)
+      (pt 4.945 5.33)
+      (pt 4.945 -5.33)
+      (pt -4.945 -5.33)
+      (pt -4.945 5.33))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 5.08)
+      (pt 3.3 5.08)
+      (pt 3.3 -5.08)
+      (pt -3.3 -5.08)
+      (pt -3.3 5.08))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.3 3.81)
+      (pt -2.03 5.08))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.535 5.08)
+      (pt 3.3 5.08))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.3 -5.08)
+      (pt 3.3 -5.08))))
+   (leg 1 (pt -3.97 3.81) (padstack 1))
+   (leg 2 (pt -3.97 1.27) (padstack 0))
+   (leg 3 (pt -3.97 -1.27) (padstack 0))
+   (leg 4 (pt -3.97 -3.81) (padstack 0))
+   (leg 5 (pt 3.97 -3.81) (padstack 0))
+   (leg 6 (pt 3.97 -1.27) (padstack 0))
+   (leg 7 (pt 3.97 1.27) (padstack 0))
+   (leg 8 (pt 3.97 3.81) (padstack 0))
+   (padstack 0
+    (hole 0.73)
+    (plated true)
+    (pad (layer TCOP) (round 1.13))
+    (pad (layer INNER) (round 1.13))
+    (pad (layer BCOP) (round 1.13))
+   )
+   (padstack 1
+    (hole 0.73)
+    (plated true)
+    (pad (layer TCOP) (square 1.13))
+    (pad (layer INNER) (round 1.13))
+    (pad (layer BCOP) (square 1.13))
+   )
+   (model "LM386N-4_NOPB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
